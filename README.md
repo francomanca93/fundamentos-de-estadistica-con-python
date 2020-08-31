@@ -25,6 +25,7 @@ Con el curso se trata de comprender los conceptos estadísticos básicos e incre
 
 - [Fundamentos de Estadística y Análisis de Datos con Python](#fundamentos-de-estadística-y-análisis-de-datos-con-python)
   - [Introducción a conceptos básicos del curso](#introducción-a-conceptos-básicos-del-curso)
+    - [Pensamiento estadístico para programadores](#pensamiento-estadístico-para-programadores)
   - [Caracterizar información a traves del análisis exploratorio](#caracterizar-información-a-traves-del-análisis-exploratorio)
   - [Aplicar conceptos de probabilidad a eventos aleatorios](#aplicar-conceptos-de-probabilidad-a-eventos-aleatorios)
   - [Construir conceptos estadísticos analíticos](#construir-conceptos-estadísticos-analíticos)
@@ -34,6 +35,30 @@ Con el curso se trata de comprender los conceptos estadísticos básicos e incre
 # Fundamentos de Estadística y Análisis de Datos con Python
 
 ## Introducción a conceptos básicos del curso
+
+### Pensamiento estadístico para programadores
+
+Realiza una predicción de la probabilidad de salvarse en el Titanic con las herramientas aprendidas en este curso!.
+
+**¿Que es Python?**
+
+Python es un lenguaje interpretado, dinámico, y es un lenguaje que posee una escalabilidad muy buena.
+
+Python puede funcionar como una versión Script. Para este curso se usará Collab, la version Jupyter de Google.
+
+**Python y la estadística: ¿Porqué usar python y no R para estadística?**
+
+R es un lenguaje dedicado a la estadística, python es un lenguaje de propósito general con módulos estadísticos.
+
+R está especializado para estadística y tiene más features que python. Pero cuando se trata de construir complejos **piplines** para el análisis que mezcla estadística con análisis de imágenes, minería de texto la riqueza de python es invaluable.
+
+La estadística actual requiere una gran cantidad de procesamiento y almacenamiento de información. Aquí entran los **ambientes virtuales**.
+
+Los ambientes virtuales como Collabs, Jupyter, facilitan el trabajo en estas variables de volumen y procesamiento, así como el uso de librerías.
+
+En esta sección se verán conceptos básicos para empezar a trabajar con librerias, desde interactuar con el sistema operativo desde nuestra Notebook hasta importar algunas bases de datos como ejemplo.
+
+El trabajo lo podremos ver en el siguiente link [Notebook](https://github.com/francomanca93/fundamentos-de-estadistica-con-python/blob/basico/Conceptos%20b%C3%A1sicos%20del%20curso/1_Conceptos_b%C3%A1sicos.ipynb).
 
 ## Caracterizar información a traves del análisis exploratorio
 
