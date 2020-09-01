@@ -28,6 +28,7 @@ Con el curso se trata de comprender los conceptos estadísticos básicos e incre
     - [Pensamiento estadístico para programadores](#pensamiento-estadístico-para-programadores)
     - [Conceptos clave sobre estadística](#conceptos-clave-sobre-estadística)
   - [Caracterizar información a traves del análisis exploratorio](#caracterizar-información-a-traves-del-análisis-exploratorio)
+    - [Medidas de tendencia central](#medidas-de-tendencia-central)
   - [Aplicar conceptos de probabilidad a eventos aleatorios](#aplicar-conceptos-de-probabilidad-a-eventos-aleatorios)
   - [Construir conceptos estadísticos analíticos](#construir-conceptos-estadísticos-analíticos)
   - [Realizar inferencias estadisticas a partir de una muestra](#realizar-inferencias-estadisticas-a-partir-de-una-muestra)
@@ -74,6 +75,35 @@ Tambien las variables deterministicas y las variables aleatorias y como entre es
 Vemos el cálculo de probabilidades en variables y distribución de Bernoulli. Para terminar estudiamos la distribución binomial y su estrecha relación con Bernoulli.
 
 ## Caracterizar información a traves del análisis exploratorio
+
+En esta sección veremos una serie de herramientas, tanto visuales como numéricas que nos van a permitir caracterizar y describir perfectamente las variables aleatorias.
+
+### Medidas de tendencia central
+
+[Notebook del contenido](https://github.com/francomanca93/fundamentos-de-estadistica-con-python/blob/analisis-exploratorio/2.%20Caracterizar%20informaci%C3%B3n%20a%20traves%20del%20an%C3%A1lisis%20exploratorio/3_Medidas_de_tendencia_central.ipynb)
+
+Las [medidas de tendencia central](https://es.wikipedia.org/wiki/Medidas_de_tendencia_central) son valores principales para caracterizar variables aleatorias.
+
+La medida de tendencia central es un número situado hacia el centro de la distribución de los valores de una serie de observaciones (medidas), en la que se encuentra ubicado el conjunto de los datos.
+
+Es importante que no todas las medidas de tendencia son aplicables a los dos tipos de variables, numéricas y categóricas, y que también algunas de ellas son más susceptibles a los valores extremos (outliers)
+
+**Medidas de tendencia**
+
+- Media
+  - [Aritmética]((https://es.wikipedia.org/wiki/Media_aritm%C3%A9tica))
+  - [Geométrica](https://es.wikipedia.org/wiki/Media_geom%C3%A9trica)
+  - [Armónica](https://es.wikipedia.org/wiki/Media_arm%C3%B3nica)
+  - [Ponderada](https://es.wikipedia.org/wiki/Media_ponderada)
+- [Mediana](https://es.wikipedia.org/wiki/Mediana_(estad%C3%ADstica))
+- [Moda](https://es.wikipedia.org/wiki/Moda_(estad%C3%ADstica))
+- [Error típico o desviación estándar](https://es.wikipedia.org/wiki/Desviaci%C3%B3n_t%C3%ADpica)
+
+**Criterios de aplicación**
+
+- No todas las medidas de tendencia central son aplicables a las variables numericas y categoricas, o sea, hay que tener en cuenta el tipo de variable a la hora de utilizarlas.
+
+- Alguna de ellas son mas suceptibles que otras a los valores extremos.
 
 ## Aplicar conceptos de probabilidad a eventos aleatorios
 
