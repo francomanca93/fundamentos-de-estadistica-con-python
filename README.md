@@ -29,6 +29,7 @@ Con el curso se trata de comprender los conceptos estadísticos básicos e incre
     - [Conceptos clave sobre estadística](#conceptos-clave-sobre-estadística)
   - [Caracterizar información a traves del análisis exploratorio](#caracterizar-información-a-traves-del-análisis-exploratorio)
     - [Medidas de tendencia central](#medidas-de-tendencia-central)
+    - [Diagramas de frecuencias para variables continuas y discretas](#diagramas-de-frecuencias-para-variables-continuas-y-discretas)
   - [Aplicar conceptos de probabilidad a eventos aleatorios](#aplicar-conceptos-de-probabilidad-a-eventos-aleatorios)
   - [Construir conceptos estadísticos analíticos](#construir-conceptos-estadísticos-analíticos)
   - [Realizar inferencias estadisticas a partir de una muestra](#realizar-inferencias-estadisticas-a-partir-de-una-muestra)
@@ -104,6 +105,23 @@ Es importante que no todas las medidas de tendencia son aplicables a los dos tip
 - No todas las medidas de tendencia central son aplicables a las variables numericas y categoricas, o sea, hay que tener en cuenta el tipo de variable a la hora de utilizarlas.
 
 - Alguna de ellas son mas suceptibles que otras a los valores extremos.
+
+### Diagramas de frecuencias para variables continuas y discretas
+
+[Notebook del contenido](https://github.com/francomanca93/fundamentos-de-estadistica-con-python/blob/analisis-exploratorio/2.%20Caracterizar%20informaci%C3%B3n%20a%20traves%20del%20an%C3%A1lisis%20exploratorio/4_Diagrama_de_frecuencias.ipynb)
+
+En estadistica descriptiva tenemos los diagramas de frecuencia o [histogramas](https://es.wikipedia.org/wiki/Histograma), estos es una representación gráfica de una variable en forma de barras, donde la superficie de cada barra es proporcional a la frecuencia de los valores representados.
+
+Sirven para obtener una "primera vista" general, o panorama, de la distribución de la población, o de la muestra, respecto a una característica, cuantitativa y continua.
+
+En resuemn son una representación categórica y numérica de la distribución de los datos.
+
+Los que haremos en este notebook será estudiar las variables principales para hacer este estudio, y en las siguiente sección los gráficos.
+
+Las variables que podemos representar son:
+
+- **Variables categóricas**: Tablas de frecuencia.
+- **Variables numéricas**: percentiles, deciles, quintiles y quartiles, outliers o valores extremos.
 
 ## Aplicar conceptos de probabilidad a eventos aleatorios
 
