@@ -30,6 +30,7 @@ Con el curso se trata de comprender los conceptos estadísticos básicos e incre
   - [Caracterizar información a traves del análisis exploratorio](#caracterizar-información-a-traves-del-análisis-exploratorio)
     - [Medidas de tendencia central](#medidas-de-tendencia-central)
     - [Diagramas de frecuencias para variables continuas y discretas](#diagramas-de-frecuencias-para-variables-continuas-y-discretas)
+    - [Visualización de datos usando Python](#visualización-de-datos-usando-python)
   - [Aplicar conceptos de probabilidad a eventos aleatorios](#aplicar-conceptos-de-probabilidad-a-eventos-aleatorios)
   - [Construir conceptos estadísticos analíticos](#construir-conceptos-estadísticos-analíticos)
   - [Realizar inferencias estadisticas a partir de una muestra](#realizar-inferencias-estadisticas-a-partir-de-una-muestra)
@@ -122,6 +123,23 @@ Las variables que podemos representar son:
 
 - **Variables categóricas**: Tablas de frecuencia.
 - **Variables numéricas**: percentiles, deciles, quintiles y quartiles, outliers o valores extremos.
+
+### Visualización de datos usando Python
+
+[Notebook del contenido]()
+
+En esta sección la visualización de los datos.
+
+La visualización de datos es de suma importancia en la actualidad ya que los mismos crecen a ritmos agigantados, el emplear un modo visual que presente la información incluso cuando el volumen de datos es bastante considerable, permite ahorrar tiempo y costes, debido a que la información se puede visualizar de forma **clara, rápida y sencilla** permitiendo la **toma de buenas decisiones**.
+
+En esta sección veremos los tipos de gráficos mas utilizados y simples.
+
+- Para variables categoricas
+  - Gráfico de barras
+  - Gráfico circular.
+
+- Para variables numericas:
+  - Histogramas
 
 ## Aplicar conceptos de probabilidad a eventos aleatorios
 
