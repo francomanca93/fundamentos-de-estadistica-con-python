@@ -126,7 +126,7 @@ Las variables que podemos representar son:
 
 ### Visualización de datos usando Python
 
-[Notebook del contenido]()
+[Notebook del contenido](https://github.com/francomanca93/fundamentos-de-estadistica-con-python/blob/analisis-exploratorio/2.%20Caracterizar%20informaci%C3%B3n%20a%20traves%20del%20an%C3%A1lisis%20exploratorio/5_Visualizaci%C3%B3n_de_datos_usando_Python.ipynb)
 
 En esta sección la visualización de los datos.
 
