@@ -139,7 +139,13 @@ En esta sección veremos los tipos de gráficos mas utilizados y simples.
   - Gráfico circular.
 
 - Para variables numericas:
-  - Histogramas
+  - Una variable:
+    - Histogramas
+  - Dos variables:
+    - Boxplot
+    - Scatterplot
+
+Estos ultimos dos gráficos, para dos variables y numericas son continuamente utilizados en el analisis estadistico porque nos permiten visualizar la relacion entre dos variables conjuntamente. Si vemoas una distribucion aleatoria donde no haya ningun patron, podemos decir que las variables no estan correlacionadas, pero si llegamos a identicarlo, podemos llegar a conclusiones mucho mas profundas, estadisticamente hablando entre las 2 variables.
 
 ## Aplicar conceptos de probabilidad a eventos aleatorios
 
