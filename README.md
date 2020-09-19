@@ -32,6 +32,7 @@ Con el curso se trata de comprender los conceptos estadísticos básicos e incre
     - [Diagramas de frecuencias para variables continuas y discretas](#diagramas-de-frecuencias-para-variables-continuas-y-discretas)
     - [Visualización de datos usando Python](#visualización-de-datos-usando-python)
   - [Aplicar conceptos de probabilidad a eventos aleatorios](#aplicar-conceptos-de-probabilidad-a-eventos-aleatorios)
+    - [Probabilidad condicional - Teorema de Bayes](#probabilidad-condicional---teorema-de-bayes)
   - [Construir conceptos estadísticos analíticos](#construir-conceptos-estadísticos-analíticos)
   - [Realizar inferencias estadisticas a partir de una muestra](#realizar-inferencias-estadisticas-a-partir-de-una-muestra)
   - [Usar modelos estadísticos para exploración y predicción](#usar-modelos-estadísticos-para-exploración-y-predicción)
@@ -148,6 +149,22 @@ En esta sección veremos los tipos de gráficos mas utilizados y simples.
 Estos ultimos dos gráficos, para dos variables y numericas son continuamente utilizados en el analisis estadistico porque nos permiten visualizar la relacion entre dos variables conjuntamente. Si vemoas una distribucion aleatoria donde no haya ningun patron, podemos decir que las variables no estan correlacionadas, pero si llegamos a identicarlo, podemos llegar a conclusiones mucho mas profundas, estadisticamente hablando entre las 2 variables.
 
 ## Aplicar conceptos de probabilidad a eventos aleatorios
+
+### Probabilidad condicional - Teorema de Bayes
+
+[Notebook del contenido](https://github.com/francomanca93/fundamentos-de-estadistica-con-python/blob/eventos-aleatorios/3.%20Aplicar%20conceptos%20de%20probabilidad%20a%20eventos%20aleatorios/6_Probabilidad_condicional_Teorema_de_Bayes.ipynb)
+
+En esta sección vemos la de conocer los tipos de probabilidades y como se relacionan estas con el Teorema de Bayes.
+
+Los tipos de probabilidades claves que debemos tener en cuenta 3 son:
+
+- Probabilidad univariada
+- Probabilidad conjunta bivariada
+- Probabilidad condicional
+
+Una vez entendido estos conceptos se estudia en con mayor profundidad el Teorema de Bayes aplicando Python en el Notebook.
+
+Basicamente el teorema de bayes nos permite inferir la probabilidad de un evento A cuando tenemos informacion parcial de este evento y condicionado a un evento B cuando tenemos información total de este.
 
 ## Construir conceptos estadísticos analíticos
 
