@@ -33,6 +33,7 @@ Con el curso se trata de comprender los conceptos estadísticos básicos e incre
     - [Visualización de datos usando Python](#visualización-de-datos-usando-python)
   - [Aplicar conceptos de probabilidad a eventos aleatorios](#aplicar-conceptos-de-probabilidad-a-eventos-aleatorios)
     - [Probabilidad condicional - Teorema de Bayes](#probabilidad-condicional---teorema-de-bayes)
+    - [Funciones de distribución discreta y continua](#funciones-de-distribución-discreta-y-continua)
   - [Construir conceptos estadísticos analíticos](#construir-conceptos-estadísticos-analíticos)
   - [Realizar inferencias estadisticas a partir de una muestra](#realizar-inferencias-estadisticas-a-partir-de-una-muestra)
   - [Usar modelos estadísticos para exploración y predicción](#usar-modelos-estadísticos-para-exploración-y-predicción)
@@ -165,6 +166,14 @@ Los tipos de probabilidades claves que debemos tener en cuenta 3 son:
 Una vez entendido estos conceptos se estudia en con mayor profundidad el Teorema de Bayes aplicando Python en el Notebook.
 
 Basicamente el teorema de bayes nos permite inferir la probabilidad de un evento A cuando tenemos informacion parcial de este evento y condicionado a un evento B cuando tenemos información total de este.
+
+### Funciones de distribución discreta y continua
+
+[Notebook del contenido](https://github.com/francomanca93/fundamentos-de-estadistica-con-python/blob/eventos-aleatorios/3.%20Aplicar%20conceptos%20de%20probabilidad%20a%20eventos%20aleatorios/7_Funciones_de_distribuci%C3%B3n_discreta_y_continua.ipynb)
+
+Las **distribuciones de probabilidad continuas**, como la distribución normal, describen valores en un rango o escala y se muestran como figuras sólidas en la galería de distribuciones. Las distribuciones continuas son en realidad abstracciones matemáticas, ya que suponen la existencia de cada valor intermedio posible entre dos números. Es decir, una distribución continua asume que hay un número infinito de valores entre dos puntos de la distribución.
+
+Las **distribuciones de probabilidad discretas** describen valores distintos, normalmente números enteros, sin valores intermedios, y se muestran como una serie de columnas verticales.Una distribución discreta, por ejemplo, puede describir como 0, 1, 2, 3 o 4 el número de veces que aparece “cara” al tirar una moneda a cara o cruz.
 
 ## Construir conceptos estadísticos analíticos
 
