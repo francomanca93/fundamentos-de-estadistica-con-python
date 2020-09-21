@@ -34,6 +34,7 @@ Con el curso se trata de comprender los conceptos estadísticos básicos e incre
   - [Aplicar conceptos de probabilidad a eventos aleatorios](#aplicar-conceptos-de-probabilidad-a-eventos-aleatorios)
     - [Probabilidad condicional - Teorema de Bayes](#probabilidad-condicional---teorema-de-bayes)
     - [Funciones de distribución discreta y continua](#funciones-de-distribución-discreta-y-continua)
+    - [Distribuciones de mayor aplicación discretas](#distribuciones-de-mayor-aplicación-discretas)
   - [Construir conceptos estadísticos analíticos](#construir-conceptos-estadísticos-analíticos)
   - [Realizar inferencias estadisticas a partir de una muestra](#realizar-inferencias-estadisticas-a-partir-de-una-muestra)
   - [Usar modelos estadísticos para exploración y predicción](#usar-modelos-estadísticos-para-exploración-y-predicción)
@@ -174,6 +175,22 @@ Basicamente el teorema de bayes nos permite inferir la probabilidad de un evento
 Las **distribuciones de probabilidad continuas**, como la distribución normal, describen valores en un rango o escala y se muestran como figuras sólidas en la galería de distribuciones. Las distribuciones continuas son en realidad abstracciones matemáticas, ya que suponen la existencia de cada valor intermedio posible entre dos números. Es decir, una distribución continua asume que hay un número infinito de valores entre dos puntos de la distribución.
 
 Las **distribuciones de probabilidad discretas** describen valores distintos, normalmente números enteros, sin valores intermedios, y se muestran como una serie de columnas verticales.Una distribución discreta, por ejemplo, puede describir como 0, 1, 2, 3 o 4 el número de veces que aparece “cara” al tirar una moneda a cara o cruz.
+
+[Distribución de probabilidades mas comunes](https://es.qwe.wiki/wiki/Probability_distribution#Common_probability_distributions)
+
+### Distribuciones de mayor aplicación discretas
+
+[Notebook del contenido](https://github.com/francomanca93/fundamentos-de-estadistica-con-python/blob/eventos-aleatorios/3.%20Aplicar%20conceptos%20de%20probabilidad%20a%20eventos%20aleatorios/8_Distribuciones_de_mayor_aplicaci%C3%B3n_discretas.ipynb)
+
+Las distribuciones de probabilidad discretas mas comunes son:
+
+- [Distribucion de Bernoulli](https://es.wikipedia.org/wiki/Distribuci%C3%B3n_de_Bernoulli)
+- [Distribucion de Binomial](https://es.wikipedia.org/wiki/Distribuci%C3%B3n_binomial)
+- [Distribucion de Geometrica](https://es.qwe.wiki/wiki/Geometric_distribution)
+- [Distribucion de Binomial negativa](https://es.qwe.wiki/wiki/Negative_binomial_distribution)
+- [Distribucion de Poisson](https://es.qwe.wiki/wiki/Poisson_distribution)
+
+En general cuando tienes un dataset y te enfocas en alguna variable numérica además de ver si hay outliers con boxplots, entre otros estudiso. Puede ser interesante analizar la distribución de esa variable y querer generar un modelo para ver que tan probable es que dicha variable tome cierto valor, es decir, P(x=a). Luego piensas ¿será que esa variable se distribuye de acuerdo a una dsitribución normal, uniforme, binomial, ..., etc?. y ahí comienza el análisis.
 
 ## Construir conceptos estadísticos analíticos
 
