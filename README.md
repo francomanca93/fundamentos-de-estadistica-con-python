@@ -35,6 +35,7 @@ Con el curso se trata de comprender los conceptos estadísticos básicos e incre
     - [Probabilidad condicional - Teorema de Bayes](#probabilidad-condicional---teorema-de-bayes)
     - [Funciones de distribución discreta y continua](#funciones-de-distribución-discreta-y-continua)
     - [Distribuciones de mayor aplicación discretas](#distribuciones-de-mayor-aplicación-discretas)
+    - [Distribuciones de mayor aplicación continuas](#distribuciones-de-mayor-aplicación-continuas)
   - [Construir conceptos estadísticos analíticos](#construir-conceptos-estadísticos-analíticos)
   - [Realizar inferencias estadisticas a partir de una muestra](#realizar-inferencias-estadisticas-a-partir-de-una-muestra)
   - [Usar modelos estadísticos para exploración y predicción](#usar-modelos-estadísticos-para-exploración-y-predicción)
@@ -189,6 +190,14 @@ Las distribuciones de probabilidad discretas mas comunes son:
 - [Distribucion de Geometrica](https://es.qwe.wiki/wiki/Geometric_distribution)
 - [Distribucion de Binomial negativa](https://es.qwe.wiki/wiki/Negative_binomial_distribution)
 - [Distribucion de Poisson](https://es.qwe.wiki/wiki/Poisson_distribution)
+
+### Distribuciones de mayor aplicación continuas
+
+[Notebook del contenido](https://github.com/francomanca93/fundamentos-de-estadistica-con-python/blob/eventos-aleatorios/9_Distribuciones_de_mayor_aplicaci%C3%B3n_continuas.ipynb)
+
+- [Distribucion de Exponencial](https://es.qwe.wiki/wiki/Exponential_distribution): Es el caso inverso de la distribucion de Poisson. En Poisson contabamos numero de eventos en unidad de tiempo. En esta distribucion contamos el tiempo que no tardamos en llegar a uno de esos eventos. Es utilizada generalmente para análisis de fiabilidad, p.e: probabilidad de que un componente falle transcurrido una cierta cantidad de tiempo. 
+- [Distribucion de Normal](https://es.qwe.wiki/wiki/Normal_distribution): Tambien llamada de campana. Se caracteriza por estar centrada en una media de 0 y tener el 99% de los valores en +-3 desviaciones estandar. Se utiliza para inferencia estadística, es decir, estimar/evaluar parámetros de toda una población, basados en una muestra.
+- [Distribucion de Uniforme](https://es.qwe.wiki/wiki/Uniform_distribution_(continuous)): Asume que cada evento esta distribuido con una misma probabilidad. Se utiliza generalmente en el ámbito de simulación, por ejemplo “creación” de escenarios aleatorios, números aleatorios, etc.
 
 En general cuando tienes un dataset y te enfocas en alguna variable numérica además de ver si hay outliers con boxplots, entre otros estudiso. Puede ser interesante analizar la distribución de esa variable y querer generar un modelo para ver que tan probable es que dicha variable tome cierto valor, es decir, P(x=a). Luego piensas ¿será que esa variable se distribuye de acuerdo a una dsitribución normal, uniforme, binomial, ..., etc?. y ahí comienza el análisis.
 
