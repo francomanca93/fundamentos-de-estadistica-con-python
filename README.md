@@ -36,6 +36,7 @@ Con el curso se trata de comprender los conceptos estadísticos básicos e incre
     - [Funciones de distribución discreta y continua](#funciones-de-distribución-discreta-y-continua)
     - [Distribuciones de mayor aplicación discretas](#distribuciones-de-mayor-aplicación-discretas)
     - [Distribuciones de mayor aplicación continuas](#distribuciones-de-mayor-aplicación-continuas)
+    - [Estandarización, covarianza y correlación - Data set iris species](#estandarización-covarianza-y-correlación---data-set-iris-species)
   - [Construir conceptos estadísticos analíticos](#construir-conceptos-estadísticos-analíticos)
   - [Realizar inferencias estadisticas a partir de una muestra](#realizar-inferencias-estadisticas-a-partir-de-una-muestra)
   - [Usar modelos estadísticos para exploración y predicción](#usar-modelos-estadísticos-para-exploración-y-predicción)
@@ -200,6 +201,18 @@ Las distribuciones de probabilidad discretas mas comunes son:
 - [Distribucion de Uniforme](https://es.qwe.wiki/wiki/Uniform_distribution_(continuous)): Asume que cada evento esta distribuido con una misma probabilidad. Se utiliza generalmente en el ámbito de simulación, por ejemplo “creación” de escenarios aleatorios, números aleatorios, etc.
 
 En general cuando tienes un dataset y te enfocas en alguna variable numérica además de ver si hay outliers con boxplots, entre otros estudiso. Puede ser interesante analizar la distribución de esa variable y querer generar un modelo para ver que tan probable es que dicha variable tome cierto valor, es decir, P(x=a). Luego piensas ¿será que esa variable se distribuye de acuerdo a una dsitribución normal, uniforme, binomial, ..., etc?. y ahí comienza el análisis.
+
+### Estandarización, covarianza y correlación - Data set iris species
+
+[Notebook del contenido](https://github.com/francomanca93/fundamentos-de-estadistica-con-python/blob/eventos-aleatorios/3.%20Aplicar%20conceptos%20de%20probabilidad%20a%20eventos%20aleatorios/10_Estandarizaci%C3%B3n%2C_covarianza_y_correlaci%C3%B3n.ipynb)
+
+En esta sección se estudian 3 conceptos muy importantes. Para estudiar estos conceptos se utilizo el [datasets de iris](https://www.kaggle.com/uciml/iris)
+
+Dos de los conceptos importantes son la **correlacion** y la **covarianza**, son dos medidas que nos van a permitir entender la relacion entre dos variables aleatorias, **x** e **y**. Pero para hablar de ellas debemos entender el concepto de estandarizacion, el primer conceptos.
+
+Estandarizar una variable consiste en transformar una distribución N(µ, σ) en otra normal N(0, 1).
+
+Los detalles de los conceptos aplicados en Python se encuentran en el notebook.
 
 ## Construir conceptos estadísticos analíticos
 
