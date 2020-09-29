@@ -38,6 +38,7 @@ Con el curso se trata de comprender los conceptos estadísticos básicos e incre
     - [Distribuciones de mayor aplicación continuas](#distribuciones-de-mayor-aplicación-continuas)
     - [Estandarización, covarianza y correlación - Data set iris species](#estandarización-covarianza-y-correlación---data-set-iris-species)
   - [Construir conceptos estadísticos analíticos](#construir-conceptos-estadísticos-analíticos)
+    - [Estimadores](#estimadores)
   - [Realizar inferencias estadisticas a partir de una muestra](#realizar-inferencias-estadisticas-a-partir-de-una-muestra)
   - [Usar modelos estadísticos para exploración y predicción](#usar-modelos-estadísticos-para-exploración-y-predicción)
 
@@ -215,6 +216,19 @@ Estandarizar una variable consiste en transformar una distribución N(µ, σ) en
 Los detalles de los conceptos aplicados en Python se encuentran en el notebook.
 
 ## Construir conceptos estadísticos analíticos
+
+### Estimadores
+
+[Notebook del contenido](https://github.com/francomanca93/fundamentos-de-estadistica-con-python/blob/estadistica-analitica/4.%20Construir%20conceptos%20estad%C3%ADsticos%20anal%C3%ADticos/11_Estimadores.ipynb)
+
+Una población o una variable aleatoria que viene de una población puede ser muestreada y calculada utilizando una pequeña porción de la misma. Sobre la muestra quisieramos encontrar algunos parametros poblacionales que la describan perfectamente. Recordemos una variable aleatoria normal que puede ser descripta con la media (µ) y su desviación estandar (σ), esto se simboliza --> N(µ, σ).
+
+Lo que queremos es inferir o extraer una conclusión de la población a través de la muestra tomada de la población y obteniendo sus parámetros descriptivos.
+
+A partir de lo dicho, queremos encontrar los mejores estimadores de los parámetros poblaciones, ¿cuales serán estos? Para saber esto debemos saber que es un [estimador](https://es.wikipedia.org/wiki/Estimador) y cuales serán los de [máxima verosimilitud](https://es.wikipedia.org/wiki/M%C3%A1xima_verosimilitud).
+
+- Un estimador es un estadístico (esto es, una función de la muestra) usado para estimar un parámetro desconocido de la población.
+- Los estimadores por máxima verosimilitud (conocida también como EMV y, en ocasiones, MLE por sus siglas en inglés) es un método habitual para ajustar un modelo y estimar sus parámetros.
 
 ## Realizar inferencias estadisticas a partir de una muestra
 
