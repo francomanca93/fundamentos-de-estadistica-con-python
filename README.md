@@ -40,6 +40,7 @@ Con el curso se trata de comprender los conceptos estadísticos básicos e incre
   - [Construir conceptos estadísticos analíticos](#construir-conceptos-estadísticos-analíticos)
     - [Estimadores](#estimadores)
     - [Distribuciones muestrales](#distribuciones-muestrales)
+    - [Teorema del Límite Central](#teorema-del-límite-central)
   - [Realizar inferencias estadisticas a partir de una muestra](#realizar-inferencias-estadisticas-a-partir-de-una-muestra)
   - [Usar modelos estadísticos para exploración y predicción](#usar-modelos-estadísticos-para-exploración-y-predicción)
 
@@ -258,6 +259,16 @@ Pueden pasar 2 casos:
 
 - Usamos la **función Chi-cuadrada** si vamos a hacer inferencia de una sola varianza.
 - Usamos la **F Fisher-Snedecor** para el cociente de 2 varianzas, varianza de X sobre varianza de Y.
+
+### Teorema del Límite Central
+
+[Notebook del contenido](https://github.com/francomanca93/fundamentos-de-estadistica-con-python/blob/estadistica-analitica/4.%20Construir%20conceptos%20estad%C3%ADsticos%20anal%C3%ADticos/13_Teorema_del_limite_central.ipynb)
+
+En esta sección aplicamos el teorema del Límite central con dos distribuciones, una exponencial y otra uniforme y vemos como aplicar el teorema a estas.
+
+Este concepto nos permitirá aproximar la función de distribución de una variable aleatoria de la cual no conocemos previamente su distribución.
+
+El teorema de limite central indica que si sumamos **n** variables aleatorias independientes con un **n > 30** podemos aproximar la función utilizando la curva de la función Normal o la curva de la campana de Gauss. Incluso si las variables aleatorias originales no se distribuyen como una normal.
 
 ## Realizar inferencias estadisticas a partir de una muestra
 
