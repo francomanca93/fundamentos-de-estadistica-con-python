@@ -39,6 +39,7 @@ Con el curso se trata de comprender los conceptos estadísticos básicos e incre
     - [Estandarización, covarianza y correlación - Data set iris species](#estandarización-covarianza-y-correlación---data-set-iris-species)
   - [Construir conceptos estadísticos analíticos](#construir-conceptos-estadísticos-analíticos)
     - [Estimadores](#estimadores)
+    - [Distribuciones muestrales](#distribuciones-muestrales)
   - [Realizar inferencias estadisticas a partir de una muestra](#realizar-inferencias-estadisticas-a-partir-de-una-muestra)
   - [Usar modelos estadísticos para exploración y predicción](#usar-modelos-estadísticos-para-exploración-y-predicción)
 
@@ -229,6 +230,34 @@ A partir de lo dicho, queremos encontrar los mejores estimadores de los parámet
 
 - Un estimador es un estadístico (esto es, una función de la muestra) usado para estimar un parámetro desconocido de la población.
 - Los estimadores por máxima verosimilitud (conocida también como EMV y, en ocasiones, MLE por sus siglas en inglés) es un método habitual para ajustar un modelo y estimar sus parámetros.
+
+### Distribuciones muestrales
+
+[Notebook del contenido](https://github.com/francomanca93/fundamentos-de-estadistica-con-python/blob/estadistica-analitica/4.%20Construir%20conceptos%20estad%C3%ADsticos%20anal%C3%ADticos/12_Distribuciones_muestrales.ipynb)
+
+En la siguiente sección estudiamos las distribuciones muestrales mas importantes.
+
+Con estas funciones podemos aproximar o estimar parámetros poblacionales de la siguiente manera:
+
+1. Usamos la media muestral como mejor estimador cuando queremos estimar:
+
+- Media.
+- Proporción de una función de Bernoulli.
+- Lambda de una distribución Poisson o Exponencial.
+
+Pueden pasar 2 casos:
+
+- Usamos la **función Normal** estandar si conocemos la varianza.
+- Usamos la **función t-student** si NO conocemos la varianza. Debemos entender que son los [grados de libertad](https://www.webyempresas.com/grados-de-libertad-en-estadistica/)
+
+2. Usamos la varianza muestral como mejor estimador si queremos estimar:
+
+- La varianza
+
+Pueden pasar 2 casos:
+
+- Usamos la **función Chi-cuadrada** si vamos a hacer inferencia de una sola varianza.
+- Usamos la **F Fisher-Snedecor** para el cociente de 2 varianzas, varianza de X sobre varianza de Y.
 
 ## Realizar inferencias estadisticas a partir de una muestra
 
