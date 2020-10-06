@@ -42,6 +42,7 @@ Con el curso se trata de comprender los conceptos estadísticos básicos e incre
     - [Distribuciones muestrales](#distribuciones-muestrales)
     - [Teorema del Límite Central](#teorema-del-límite-central)
   - [Realizar inferencias estadisticas a partir de una muestra](#realizar-inferencias-estadisticas-a-partir-de-una-muestra)
+    - [Prueba de hipótesis](#prueba-de-hipótesis)
   - [Usar modelos estadísticos para exploración y predicción](#usar-modelos-estadísticos-para-exploración-y-predicción)
 
 # Fundamentos de Estadística y Análisis de Datos con Python
@@ -271,5 +272,17 @@ Este concepto nos permitirá aproximar la función de distribución de una varia
 El teorema de limite central indica que si sumamos **n** variables aleatorias independientes con un **n > 30** podemos aproximar la función utilizando la curva de la función Normal o la curva de la campana de Gauss. Incluso si las variables aleatorias originales no se distribuyen como una normal.
 
 ## Realizar inferencias estadisticas a partir de una muestra
+
+### Prueba de hipótesis
+
+[Notebook del contenido](https://github.com/francomanca93/fundamentos-de-estadistica-con-python/blob/inferencias-estadisticas/5.%20Realizar%20inferencias%20estadisticas%20a%20partir%20de%20una%20muestra/14_Pruebas_de_hip%C3%B3tesis.ipynb)
+
+Con los conceptos aprendidos podemos crear juicios de valor sobre las variables aleatorias. Una primera técnica para realizar esto es la prueba de hipótesis
+
+Una prueba de hipótesis es una regla que especifica si se puede aceptar o rechazar una afirmación acerca de un parámetro poblacional (lambda, sigma, mu, etc.) dependiendo de la evidencia proporcionada por una muestra de datos (x1, x2, x3, ...,xn)
+
+Los valores de las pruebas podemos evidenciarlos en un gráfico y analizar si aceptar o rechazar alguna de las hipotesis sabiendo que existen diferentes casos. Si suponemos una distribución normal podemos tener 3 casos.
+
+Todo lo dicho antes podemos verlo junto a casos de estudio en el notebook del contenido de esta sección.
 
 ## Usar modelos estadísticos para exploración y predicción
